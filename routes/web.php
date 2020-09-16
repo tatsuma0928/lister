@@ -16,10 +16,15 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('front/top');
 // });
-Route::get('/{any}', function () {
+
+Auth::routes();
+
+Route::get('/','Todocontroller@index');
+
+Route::get('/', function () {
     return view('front/top');
 })->where('any', '.*');
 
-Auth::routes();
+
 
 // Route::get('/home', 'HomeController@index')->name('home');

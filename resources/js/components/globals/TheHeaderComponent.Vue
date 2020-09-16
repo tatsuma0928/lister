@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <a href="/">TODOdo?</a>
+        <a href="/">Lister</a>
     </div>
 </template>
 
