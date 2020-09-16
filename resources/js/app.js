@@ -5,6 +5,12 @@
  */
 
 require('./bootstrap');
+import Vue from 'vue';
+import App from './App.vue';
+import router from './router';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
 
 window.Vue = require('vue');
 
@@ -19,7 +25,15 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('font-awesome-icon',     FontAwesomeIcon);
+Vue.component('the-header-component',  require('./components/globals/TheHeaderComponent.vue').default);
+Vue.component('the-footer-component',  require('./components/globals/TheFooterComponent.vue').default);
+
+Vue.component('weekly-card-component', require('./components/pages/WeeklyCardComponent.vue').default);
+
+Vue.component('todo-card-component',   require('./components/parts/TodoCardComponent.vue').default);
+Vue.component('task-card-component',   require('./components/parts/TaskCardComponent.vue').default);
+Vue.component('menu-component',        require('./components/parts/MenuComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -29,4 +43,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
+    router: router,
+    localStorage: {
+    },
 });
