@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,13 +16,10 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Auth::routes();
-
-Route::get('/','Todocontroller@index');
-
+Route::group(['middleware' => ['auth']], function(){
 Route::get('/', function () {
     return view('front/top');
 })->where('any', '.*');
-
-
+});
 
 // Route::get('/home', 'HomeController@index')->name('home');
