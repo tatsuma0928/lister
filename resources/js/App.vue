@@ -45,9 +45,9 @@ export default {
     display: block;
     text-decoration: none;
     text-align: center;
-    background: $todo_card_bg;
+    background: seagreen;
     border: 1px solid  #707070;
-    border-radius: 10px;
+    border-radius: 100px;
     // font-size: calc(2rem + ((1.5vw - 0.64rem) * 0.7143)); // 20px~24pxで可変
     font-size: 2.5rem;
     font-weight: bold;
@@ -61,7 +61,7 @@ export default {
       }
     }
     .weeklytext{
-      color: $text_color;
+      color: white;
       transition: .5s all;
     }
   }
