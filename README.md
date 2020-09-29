@@ -29,22 +29,22 @@ Todoリストを作成することができます。
 
 # おもな機能
 - ユーザー登録
-![ユーザー登録](https://gyazo.com/fde0ca0194fffe036b2dd60124767999)
+![ユーザー登録](https://i.gyazo.com/36b5fd2b04905fe94b1e9c211efa6dd1.png)
 
 - ログイン
-![ログイン](https://gyazo.com/026b9487a3455f3831661110b97e61f9)
+![ログイン](https://i.gyazo.com/d48a4db7ee8de6683f05ed0d52e08644.png)
 
 - 曜日をクリックすることでTodoリストに移動
-![曜日から移動](https://gyazo.com/ba8b22174ec57f56a706728574277d42)
+![曜日から移動](https://i.gyazo.com/cb2595ed5ae4c389637c5b3a68d78307.png)
 
 - タスクの追加を押すことでタスクを作成
-![タスクを作成](https://gyazo.com/049429695db6d3cdb290413c076fe4b9)
+![タスクを作成](https://i.gyazo.com/1f78fcc2d2df67f23b446ae6da6469e3.png)
 
 - 作成したタスクはドラッグアンドドロップで移動可能 
-![ドラッグアンドドロップで移動](https://gyazo.com/331f4971889f4370e1c5832a1097bf40)
+![ドラッグアンドドロップで移動](https://i.gyazo.com/41e7e09db883847555590e133af9a7ac.png)
 
 - タスクをドラッグアンドドロップでゴミ箱に移動させることでタスクを削除
-![ゴミ箱に移動させることでタスクを削除](https://gyazo.com/1a7f32263000899f9a318e6bf850e5f0)
+![ゴミ箱に移動させることでタスクを削除](https://i.gyazo.com/85d480a0205123c4d6492da683490b2e.png)
 
 # 課題、今後の実装予定
 - 意見の投稿機能の実装（追加したことや情報を文章で共有する必要があるため）
